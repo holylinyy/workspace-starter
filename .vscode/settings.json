@@ -12,6 +12,9 @@
   "[typescript]": {
     "editor.defaultFormatter": "oxc.oxc-vscode"
   },
+  "[vue]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
   // 保存时自动格式化
   "editor.formatOnSave": true,
   // 保存时自动运行 Oxlint 修复

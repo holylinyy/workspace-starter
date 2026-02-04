@@ -1,3 +1,9 @@
 packages:
-  - 'packages/*'
-  - 'tools/*'
+  - packages/*
+  - tools/*
+  - apps/*
+
+onlyBuiltDependencies:
+  - electron
+  - electron-winstaller
+  - esbuild
