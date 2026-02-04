@@ -1,0 +1,29 @@
+{
+  "name": "@uikit/rollup-config",
+  "version": "2.0.0",
+  "private": true,
+  "description": "UIKit 标准 Rollup 打包工具",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./create-config": "./create-config.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.0",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.0",
+    "rollup": "^4.28.0",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-filesize": "^10.0.0",
+    "tslib": "^2.8.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "chat.tools.terminal.autoApprove": {
+    "pnpm": true
+  },
+  // 移除可能导致问题的显式配置路径，让插件自动发现
+  // "oxc.fmt.configPath": "${workspaceFolder}/.oxfmtrc.json",
+  "editor.defaultFormatter": "oxc.oxc-vscode",
+  // 强制指定常用语言使用 Oxc 进行格式化，防止被默认配置覆盖
+  "[javascript]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  // 保存时自动格式化
+  "editor.formatOnSave": true,
+  // 保存时自动运行 Oxlint 修复
+  "editor.codeActionsOnSave": {
+    "source.fixAll.oxc": "explicit"
+  }
+}

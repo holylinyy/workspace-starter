@@ -1,0 +1,15 @@
+{
+  "rules": {
+    "no-unused-vars": [
+      "error",
+      {
+        "destructuredArrayIgnorePattern": "^_",
+        "destructuredPropertyIgnorePattern": "^_",
+        "varsIgnorePattern": "^(unused_|_)",
+        "caughtErrors": "none"
+      }
+    ],
+    "unicorn/no-useless-fallback-in-spread": "off"
+  },
+  "ignorePatterns": ["node_modules", "dist", "coverage"]
+}
